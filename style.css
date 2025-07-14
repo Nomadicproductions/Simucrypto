@@ -1,1 +1,100 @@
-
+body {
+  font-family: sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+#browser {
+  background: white;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 900px;
+  border: 2px solid #ccc;
+  box-shadow: 2px 2px 10px #aaa;
+}
+#searchbar {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  background: #eee;
+}
+#searchbar input {
+  width: 80%;
+  padding: 8px;
+}
+#searchbar button {
+  padding: 8px 12px;
+}
+#results, #bank, #exchange, #social, #news {
+  display: none;
+  padding: 20px;
+}
+.link {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+  margin: 10px 0;
+  display: block;
+}
+#nav {
+  background: #ddd;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+#nav button {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+table {
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #999;
+  padding: 8px;
+  text-align: center;
+}
+#feed p {
+  background: #eee;
+  padding: 8px;
+  margin: 5px 0;
+#settings-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 100;
+}
+#settings-icon {
+  font-size: 26px;
+  cursor: pointer;
+  user-select: none;
+  background: #eee;
+  border-radius: 50%;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+}
+#settings-dropdown {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  background: #fff;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px #999;
+  padding: 8px;
+  min-width: 120px;
+}
+#settings-dropdown button {
+  width: 100%;
+  background: #f44;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  cursor: pointer;
+}
+#settings-dropdown button:hover {
+  background: #c00;
+}
